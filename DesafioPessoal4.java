@@ -4,11 +4,16 @@ Vamos declarar as variáveis V, R e A como double e definir um valor qualquer pa
 
 class DesafioPessoal4 {
   public static void main(String[] args) {
+    // Declaração de variáveis
         double V, R, A;
+    // Inicialização das variáveis
         R = 3.2;
         A = 4.9;
 
+    // Calculo da proposta
         V = 3.14159 * R * R * A;
+    
+    // Impressão do resultado na tela
         System.out.println("O volume da lata de óleo é de " + V + " m³");
     }
 }

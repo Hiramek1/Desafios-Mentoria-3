@@ -5,7 +5,9 @@ import java.util.Scanner;
 
 class Desafio3 {
   public static void main(String[] args) {
+    //Inicialização do Scanner
         Scanner sc = new Scanner(System.in);
+    //Declaração de variáveis
         int n1, n2, n3;
 
     // Receber três valores inteiros do usuário

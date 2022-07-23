@@ -3,14 +3,16 @@
 
 class DesafioPessoal2 {
   public static void main(String[] args) {
+    // Declaração de variáveis
         double n1, n2, n3, n4, media;
-
+    // Inicialização das variáveis
         n1 = 3453.21;
         n2 = 3498.43;
         n3 = 7902.09;
         n4 = 12932.00;
-
+    // Calculo da proposta
         media = (n1 + n2 + n3 + n4) / 4;
+    // Impressão do resultado na tela
         System.out.println("A média salarial da empresa é de R$ " + media);
     }
 }

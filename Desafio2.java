@@ -5,6 +5,7 @@ class Desafio2 {
   public static void main(String[] args) {
     // Declaração de variáveis
         int usuario, senha;
+    //Inicialização do Scanner
     		Scanner entrada = new Scanner(System.in);
     
     // Solicitação ao usuário para validação		
