@@ -3,24 +3,31 @@ import java.util.Scanner;
 
 class Desafio2 {
   public static void main(String[] args) {
+    // Declaração de variáveis
         int usuario, senha;
     		Scanner entrada = new Scanner(System.in);
-    		
+    
+    // Solicitação ao usuário para validação		
     		System.out.print("Insira o código de usuário: ");
     		usuario = entrada.nextInt();
-    		
+
+    // Validação de usuário
     		if (usuario == 1234) {
     			System.out.print("Insira a senha: ");
     			senha = entrada.nextInt();
+      // Validação de senha
     			if(senha == 9999) {
     				System.out.println("Acesso permitido");
     			} else {
+        // Mensagem de erro para senha
     				System.out.println("Senha incorreta");
     			}
     		} else {
+        // Mensagem de erro para usuário
     			System.out.println("Usuário inválido!");
     		}
-    		
+
+    // Boa prática sempre fechar o Scanner
     		entrada.close();
     }
 }

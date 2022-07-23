@@ -2,14 +2,15 @@
 
 class Desafio1 {
   public static void main(String[] args) {
+    //Declaração de variáveis
         double C, K, F, Re, Ra;
         C = 2.43;
-
+    //Inicialização das variáveis já com as fórmulas
         F = C * 1.8 + 32;
         K = C + 273.15;
         Ra = C * 1.8 + 32 + 459.67;
         Re = C * 0.8;
-
+    //Imprimir resultados na tela
         System.out.printf("A temperatura em Fahrenheit é: %.2f", F);
         System.out.printf("A temperatura em Kelvin é: %.2f", K);
         System.out.printf("A temperatura em Reaumur é: %.2f", Ra);
